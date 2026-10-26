@@ -38,7 +38,7 @@ public:
                 cin >> marks[i];
 
                 if (marks[i] < 0 || marks[i] > MAX_MARKS) {
-                    cout << "Invalid marks! Enter marks between 0 and 50.\n";
+                    cout << "Invalid marks! Enter marks between 0 and 100.\n";
                 }
 
             } while (marks[i] < 0 || marks[i] > MAX_MARKS);
@@ -61,7 +61,7 @@ public:
         cout << "Marks:\n";
 
         for (int i = 0; i < SUBJECTS; i++) {
-            cout << subjects[i] << " : " << marks[i] << "/50" << endl;
+            cout << subjects[i] << " : " << marks[i] << "/100" << endl;
         }
     }
 };
