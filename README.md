@@ -1,114 +1,105 @@
-# 🎓 Student Record Manager in C++
+# Student Record Manager in C++
 
-A simple, menu-driven **Student Record Management System** developed using C++ and Object-Oriented Programming (OOP). This project manages student details and marks in five subjects.
+The Student Record Manager is a menu-driven application developed using C++. The project aims to simplify the process of maintaining student academic records.
 
-## 📌 Project Overview
+The system manages student details and marks in five subjects: C++, DSA, Java, English, and DAE. It demonstrates how Object-Oriented Programming concepts can be used to organize and manage student information.
 
-The Student Record Manager is a C++ application designed to store, display, and manage student academic records. It allows users to enter student details, maintain subject-wise marks, and analyze student performance.
+## Project Objectives
 
-This project demonstrates the practical use of classes, objects, arrays, functions, and data handling in C++.
+- To develop a student record management application using C++.
+- To store student roll numbers and names.
+- To maintain marks in five subjects.
+- To display student records and academic information.
+- To organize student information using classes and objects.
+- To analyze student marks and academic performance.
+- To apply Object-Oriented Programming concepts.
 
-## ✨ Features
+## Features
 
-- Add student details.
-- Store student roll numbers and names.
-- Maintain marks in five subjects.
-- Display student records.
-- Search for student records.
-- Calculate total marks and percentage.
-- Identify the highest and lowest marks.
-- Use a menu-driven interface for easy interaction.
+- Student details management
+- Storage of student roll numbers and names
+- Subject-wise marks management
+- Display of student records
+- Academic marks analysis
+- Menu-driven console interface
+- Organized student information management
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **Programming Language:** C++
-- **Concepts:** Object-Oriented Programming (OOP), Classes, Objects, Arrays, Functions, and Loops
-- **Compiler:** Any compatible C++ compiler
-- **Development Environment:** Visual Studio Code / Terminal
+- **Programming Concepts:** Object-Oriented Programming (OOP)
+- **Development Environment:** Visual Studio Code
+- **Data Storage:** Arrays
 
-## 📚 Subjects Included
+## OOP Concepts Used
 
-The program manages marks in the following subjects:
+- Classes and Objects
+- Data Members
+- Member Functions
+- Arrays
+- Functions
+- Conditional Statements
+- Loops
+- Switch Statements
 
-1. C++
-2. DSA
-3. Java
-4. English
-5. DAE
+## Project Contents
 
-Maximum marks per subject: 100
+- **Source Code:** C++ implementation of the Student Record Manager.
+- **Project Presentation:** PowerPoint presentations explaining the project.
+- **Documentation:** Project report describing the system and its implementation.
+- **Video Presentation:** Video demonstration of the project.
 
-## ▶️ How to Run the Project
+## How to Run the Project
 
-### Step 1: Clone the repository
+1. Clone or download this repository.
+2. Open the project in Visual Studio Code or another C++ development environment.
+3. Open the `Project.cpp` source code file.
+4. Compile the program using a compatible C++ compiler.
+5. Run the compiled program.
+6. Enter student details when prompted.
+7. Select the required operation from the menu.
 
-```bash
-git clone https://github.com/Hemanth-sai2008/Student-Record-Manager-c-.git
-```
+## Video Presentation
 
-### Step 2: Open the project folder
+Watch the Student Record Manager in C++ project presentation:
 
-```bash
-cd Student-Record-Manager-c-
-```
+[▶️ Click here to watch the video](https://drive.google.com/file/d/1egT4oC91blKa7P84dAY3d3hIqiwRGejj/view?usp=sharing)
 
-### Step 3: Compile the C++ program
+## Project Team
 
-If your source file is named `main.cpp`, run:
+**Project Title:** Student Record Manager
 
-```bash
-g++ main.cpp -o student_manager
-```
+| Roll Number | Team Member |
+|---|---|
+| 25B11AI494 | K. Hemanth Sai Venkata Vidya Sagar |
+| 25B11AI281 | M. Ravi Teja |
+| 25B11AI084 | B. Ganesh |
+| 26B21AI080 | N. Subbarao |
 
-### Step 4: Execute the program
+## Project Guide
 
-On macOS or Linux:
+**Dr. P. Kishorekumar**
 
-```bash
-./student_manager
-```
+Associate Professor, Department of Artificial Intelligence and Machine Learning, Aditya University.
 
-**Note:** If your C++ source file has a different name, replace `main.cpp` with the actual filename.
+## Academic Details
 
-## 🎥 Video Presentation
+- **Course:** Object-Oriented Programming through C++
+- **Course Code:** 2501CS08
+- **Project Title:** Student Record Manager
+- **Institution:** Aditya University
+- **Academic Year:** 2026–2027
 
-Watch the complete project demonstration and program output:
+## Future Enhancements
 
-[▶️ Watch Student Record Manager in C++ - Video Presentation](https://drive.google.com/file/d/1egT4oC91blKa7P84dAY3d3hIqiwRGejj/view?usp=sharing)
+- Permanent storage using file handling
+- Student record update and deletion
+- Database integration
+- Improved input validation
+- Graphical user interface
+- Detailed student performance reports
 
-Make sure the Google Drive sharing permission is set to **Anyone with the link – Viewer** so others can access the video.
+## Conclusion
 
-## 💻 Sample Output
+The Student Record Manager demonstrates how C++ and Object-Oriented Programming concepts can be used to organize student academic records. It provides a foundation for developing a more advanced student information management system.
 
-The program accepts student details and subject marks, then displays the corresponding student records and performance information.
-
-*Run the program to view the actual output.*
-
-## 🎯 Learning Outcomes
-
-Through this project, I gained practical experience in:
-
-- Applying Object-Oriented Programming concepts in C++.
-- Designing classes and member functions.
-- Managing student data using arrays.
-- Performing calculations on academic marks.
-- Building a menu-driven console application.
-- Compiling and executing C++ programs.
-
-## 🚀 Future Enhancements
-
-- Store student records permanently in files.
-- Add update and delete operations.
-- Improve input validation.
-- Develop a graphical user interface.
-- Integrate a database for persistent record management.
-
-## 👨‍💻 Author
-
-**Hemanth Sai**
-
-GitHub: [Hemanth-sai2008](https://github.com/Hemanth-sai2008)
-
-## 📄 License
-
-This project is available for educational and learning purposes.
