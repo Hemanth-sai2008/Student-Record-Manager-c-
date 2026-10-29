@@ -1,105 +1,134 @@
-# Student Record Manager in C++
+# Student Record Manager Using C++
 
-The Student Record Manager is a menu-driven application developed using C++. The project aims to simplify the process of maintaining student academic records.
+A console-based **Student Record Manager** developed using C++ and Object-Oriented Programming (OOP) concepts as part of the **Object Oriented Programming Through C++ – Project Review 1 & 2** at Aditya University.
 
-The system manages student details and marks in five subjects: C++, DSA, Java, English, and DAE. It demonstrates how Object-Oriented Programming concepts can be used to organize and manage student information.
+## 📌 Project Overview
 
-## Project Objectives
+The Student Record Manager is designed to store, manage, search, and analyze student records in an organized way. It uses classes, objects, arrays, constructors, member functions, and other C++ concepts to manage student information.
 
-- To develop a student record management application using C++.
-- To store student roll numbers and names.
-- To maintain marks in five subjects.
-- To display student records and academic information.
-- To organize student information using classes and objects.
-- To analyze student marks and academic performance.
-- To apply Object-Oriented Programming concepts.
+The application provides a menu-driven interface to perform student record operations and analyze marks.
 
-## Features
+## 🎯 Objectives
 
-- Student details management
-- Storage of student roll numbers and names
-- Subject-wise marks management
-- Display of student records
-- Academic marks analysis
-- Menu-driven console interface
-- Organized student information management
+- Develop a Student Record Manager using C++.
+- Store student details and marks in an organized manner.
+- Add and display student records.
+- Search for students using roll number or name.
+- Analyze student marks.
+- Apply Object-Oriented Programming concepts in a practical project.
+- Provide a simple, menu-driven interface.
 
-## Technologies Used
+## ✨ Features
+
+- **Add Student Records:** Enter and store student information.
+- **Display Records:** View the stored student records.
+- **Search Students:** Search for a student using roll number or name.
+- **Marks Analysis:** Find the highest and lowest marks and calculate averages, as implemented in the project.
+- **Student Information Management:** Organize student details using classes and objects.
+- **Menu-Driven Interface:** Select operations through the console menu.
+
+## 🛠️ Technologies Used
 
 - **Programming Language:** C++
-- **Programming Concepts:** Object-Oriented Programming (OOP)
-- **Development Environment:** Visual Studio Code
-- **Data Storage:** Arrays
+- **Concepts:** Object-Oriented Programming, arrays, strings, functions, loops, and conditional statements.
+- **Development Tools:** C++ compiler and a code editor such as Visual Studio Code.
 
-## OOP Concepts Used
+## 📚 C++ Concepts Used
 
-- Classes and Objects
-- Data Members
-- Member Functions
-- Arrays
-- Functions
-- Conditional Statements
-- Loops
-- Switch Statements
+- Classes and objects
+- Encapsulation
+- Constructors
+- Member functions
+- Access specifiers
+- Arrays and arrays of objects
+- Strings
+- Functions and loops
+- Conditional statements
+- Input and output operations
 
-## Project Contents
+## 📂 Project Files
 
-- **Source Code:** C++ implementation of the Student Record Manager.
-- **Project Presentation:** PowerPoint presentations explaining the project.
-- **Documentation:** Project report describing the system and its implementation.
-- **Video Presentation:** Video demonstration of the project.
+- `Project.cpp` — C++ source code.
+- `README.md` — Project documentation.
+- Project review presentations and documentation files — Project explanation and review materials.
 
-## How to Run the Project
+## ▶️ How to Run the Project
+
+### Prerequisites
+
+Install a C++ compiler, such as `g++`, on your system.
+
+### Steps
 
 1. Clone or download this repository.
-2. Open the project in Visual Studio Code or another C++ development environment.
-3. Open the `Project.cpp` source code file.
-4. Compile the program using a compatible C++ compiler.
-5. Run the compiled program.
-6. Enter student details when prompted.
-7. Select the required operation from the menu.
+2. Open the project folder in your code editor or terminal.
+3. Compile the source code:
 
-## Video Presentation
+   ```bash
+   g++ Project.cpp -o StudentRecordManager
+   ```
 
-Watch the Student Record Manager in C++ project presentation:
+4. Run the compiled program.
 
-[▶️ Click here to watch the video](https://drive.google.com/file/d/1egT4oC91blKa7P84dAY3d3hIqiwRGejj/view?usp=sharing)
+   **macOS / Linux:**
 
-## Project Team
+   ```bash
+   ./StudentRecordManager
+   ```
 
-**Project Title:** Student Record Manager
+   **Windows:**
 
-| Roll Number | Team Member |
-|---|---|
-| 25B11AI494 | K. Hemanth Sai Venkata Vidya Sagar |
-| 25B11AI281 | M. Ravi Teja |
-| 25B11AI084 | B. Ganesh |
-| 26B21AI080 | N. Subbarao |
+   ```bash
+   StudentRecordManager.exe
+   ```
 
-## Project Guide
+5. Follow the menu displayed in the terminal to use the application.
 
-**Dr. P. Kishorekumar**
+## 🎥 Video Presentation
 
-Associate Professor, Department of Artificial Intelligence and Machine Learning, Aditya University.
+Watch the project presentation and demonstration through Google Drive:
 
-## Academic Details
+**[▶️ Watch Student Record Manager – C++ Project Presentation](https://drive.google.com/file/d/1egT4oC91blKa7P84dAY3d3hIqiwRGejj/view?usp=sharing)**
 
-- **Course:** Object-Oriented Programming through C++
-- **Course Code:** 2501CS08
-- **Project Title:** Student Record Manager
-- **Institution:** Aditya University
-- **Academic Year:** 2026–2027
+If the video does not play immediately, wait for Google Drive to finish processing it. Ensure that the file's general access is set to **Anyone with the link — Viewer**.
 
-## Future Enhancements
+## 👥 Team Members
 
-- Permanent storage using file handling
-- Student record update and deletion
-- Database integration
-- Improved input validation
-- Graphical user interface
-- Detailed student performance reports
+This project was developed by the following team members:
 
-## Conclusion
+| Roll Number | Team Member | Contribution |
+|---|---|---|
+| 25B11AI494 | K Hemanth Sai Venkata Vidya Sagar | OOP class design and student management |
+| 25B11AI084 | B Ganesh | Student data and marks management |
+| 25B11AI320 | G Sai | Search, marks analysis, and testing |
+| 26B21AI132 | A Keerthu Praveen | Documentation, PPT, and presentation |
 
-The Student Record Manager demonstrates how C++ and Object-Oriented Programming concepts can be used to organize student academic records. It provides a foundation for developing a more advanced student information management system.
+## 👩‍🏫 Project Guide
 
+**T. Vijaya Lakshmi**  
+Assistant Professor  
+Department of Artificial Intelligence and Machine Learning  
+Aditya University
+
+## 🎓 Academic Details
+
+- **University:** Aditya University
+- **Department:** Artificial Intelligence and Machine Learning
+- **Subject:** Object Oriented Programming Through C++
+- **Project:** Student Record Manager Using C++
+- **Review:** Project Review 1 & 2
+
+## 🚀 Future Enhancements
+
+- Add permanent storage using files or a database.
+- Improve the user interface.
+- Extend student record management features.
+- Add additional reporting and analysis options.
+
+## 🏁 Conclusion
+
+The Student Record Manager demonstrates how C++ and Object-Oriented Programming concepts can be applied to a practical student record management application. The project provides experience in organizing data, implementing functions, searching records, and analyzing marks.
+
+---
+
+**Developed as an academic project at Aditya University.**
